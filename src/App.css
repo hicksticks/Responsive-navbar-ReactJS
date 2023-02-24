@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.appbody {
+  background-color: 'orange';
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.social {
+  text-align: right;
+  width: 100%;
+  color: black;
+  position: absolute;
+  padding-right: 20px;
+  vertical-align: bottom;
+  z-index: 100;
+}
+.social a {
+  color: black;
+}
+
+.wrap {
+  overflow: hidden; 
+  position: relative;
+}
+
+.wrap-bg {
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.wrap-bg2 {
+  opacity: 0.05;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.wrap-content {
+  position: relative;
+} 
+
+.logo {
+  height: 100px;
+  width: 100px; 
+}
