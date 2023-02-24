@@ -7,7 +7,9 @@ function Navbar() {
 	const navRef = useRef();
 
 	const showNavbar = () => {
-		navRef.current.classList.toggle("responsive_nav");
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
 	};
 
 	const store = homeStore() 
@@ -40,7 +42,9 @@ function Navbar() {
 				</button>
 				<p><a href="https://dexscreener.com/fantom/0x4707eed23f628de1a032235158e33bc3c9fcf2f4000100000000000000000661-0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83-0xb715f8dce2f0e9b894c753711bd55ee3c04dca4e" target="_blank">$conk:</a> {store.coins.price} <font style={styles}>({store.coins.h24}%)</font></p>
 			</nav>
-			<button className="nav-btn" onClick={showNavbar}>
+			<button
+				className="nav-btn"
+				onClick={showNavbar}>
 				<FaBars />
 			</button>
 		</header>
